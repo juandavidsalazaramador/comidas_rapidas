@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Baloo+2:wght@600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFF8F0;
+}
+
+.font-title {
+  font-family: 'Baloo 2', sans-serif;
+}
+
+.category-banner {
+  border-radius: 18px;
+  overflow: hidden;
+  position: relative;
+  min-height: 260px;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.category-banner .banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.75) 100%);
+}
+
+.category-banner .banner-content {
+  position: relative;
+  z-index: 1;
+  padding: 28px 32px;
+  color: white;
+}
+
+.product-card {
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+}
+
+.chef-card {
+  border-radius: 20px;
+  overflow: hidden;
+  border: 3px solid #F4A300;
+  background: linear-gradient(135deg, #FFF3E0 0%, #FFE8D6 100%);
+}
+
+.team-avatar {
+  border-radius: 50%;
+  border: 4px solid #E63946;
+}

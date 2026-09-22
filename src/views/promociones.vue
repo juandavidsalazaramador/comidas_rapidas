@@ -47,7 +47,7 @@ const promociones = [
     precioAntes: '$52.000',
     precioAhora: '$42.900',
     descuento: '-18%',
-    image: 'https://loremflickr.com/500/400/burger,combo/all?lock=602'
+    image: 'https://www.shutterstock.com/image-photo/couple-eating-fresh-burger-sitting-260nw-2467344755.jpg'
   },
   {
     id: 2,
@@ -56,7 +56,7 @@ const promociones = [
     precioAntes: '$41.000',
     precioAhora: '$33.500',
     descuento: '-18%',
-    image: 'https://loremflickr.com/500/400/pizza,night/all?lock=603'
+    image: 'https://thumbs.dreamstime.com/b/pizza-de-queso-en-el-disco-m%C3%A1s-cercano-1947409.jpg'
   },
   {
     id: 3,
@@ -65,7 +65,7 @@ const promociones = [
     precioAntes: '$78.000',
     precioAhora: '$64.900',
     descuento: '-17%',
-    image: 'https://loremflickr.com/500/400/family,meal/all?lock=604'
+    image: 'https://previews.123rf.com/images/sonyakamoz/sonyakamoz2102/sonyakamoz210200022/163950083-lockdown-family-fast-food-dinner-from-delivery-service-flat-lay-of-friends-group-eating-burgers.jpg'
   }
 ]
 </script>

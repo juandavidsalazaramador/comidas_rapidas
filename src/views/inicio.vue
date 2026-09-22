@@ -2,16 +2,16 @@
   <q-page class="q-pa-md q-pa-lg-lg">
     <div
       class="category-banner q-mb-xl"
-      style="min-height: 340px; background-image: url('https://loremflickr.com/1400/500/fastfood,restaurant/all?lock=1'); background-size: cover; background-position: center;"
+      style="background-image: url('https://loremflickr.com/1400/500/fastfood,restaurant/all?lock=1'); background-size: cover; background-position: center 40%;"
     >
       <div class="banner-overlay"></div>
       <div class="banner-content">
-        <div class="text-h3 text-h4-sm text-weight-bold font-title">El mejor sabor en comidas rápidas</div>
-        <p class="text-subtitle1 q-mt-sm" style="max-width: 620px;">
+        <div class="banner-title text-weight-bold font-title">El mejor sabor en comidas rápidas</div>
+        <p class="banner-desc q-mt-xs">
           Hamburguesas, perros calientes, pizzas, bebidas y postres preparados al momento,
           con ingredientes frescos y mucho sabor.
         </p>
-        <q-btn to="/promociones" color="secondary" text-color="dark" unelevated rounded size="lg" class="q-mt-md">
+        <q-btn to="/promociones" color="secondary" text-color="dark" unelevated rounded no-caps class="q-mt-md q-px-lg">
           Ver promociones 🔥
         </q-btn>
       </div>

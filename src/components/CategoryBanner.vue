@@ -1,12 +1,12 @@
 <template>
   <div
     class="category-banner q-mb-lg"
-    :style="{ backgroundImage: `url(${image})`, backgroundSize: 'cover', backgroundPosition: 'center' }"
+    :style="{ backgroundImage: `url(${image})`, backgroundSize: 'cover', backgroundPosition: 'center 40%' }"
   >
     <div class="banner-overlay"></div>
     <div class="banner-content">
-      <div class="text-h3 text-weight-bold font-title">{{ title }}</div>
-      <div class="text-subtitle1 q-mt-xs" style="max-width: 620px;">{{ description }}</div>
+      <div class="banner-title text-weight-bold font-title">{{ title }}</div>
+      <div class="banner-desc q-mt-xs">{{ description }}</div>
     </div>
   </div>
 </template>
